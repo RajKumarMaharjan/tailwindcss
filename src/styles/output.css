@@ -682,6 +682,14 @@ video {
   margin-top: 0.25rem;
 }
 
+.mt-0{
+  margin-top: 0px;
+}
+
+.mt-36{
+  margin-top: 9rem;
+}
+
 .flex{
   display: flex;
 }
@@ -808,6 +816,70 @@ video {
 
 .basis-96{
   flex-basis: 24rem;
+}
+
+.basis-9{
+  flex-basis: 2.25rem;
+}
+
+.basis-\[\]{
+  flex-basis: ;
+}
+
+.basis-\[40\]{
+  flex-basis: 40;
+}
+
+.basis-\[400\]{
+  flex-basis: 400;
+}
+
+.basis-\[400p\]{
+  flex-basis: 400p;
+}
+
+.basis-\[400px\]{
+  flex-basis: 400px;
+}
+
+.basis-\[00px\]{
+  flex-basis: 00px;
+}
+
+.basis-\[600px\]{
+  flex-basis: 600px;
+}
+
+.basis-\[5\]{
+  flex-basis: 5;
+}
+
+.basis-\[50\]{
+  flex-basis: 50;
+}
+
+.basis-\[500\]{
+  flex-basis: 500;
+}
+
+.basis-\[500p\]{
+  flex-basis: 500p;
+}
+
+.basis-\[500px\]{
+  flex-basis: 500px;
+}
+
+.basis-8{
+  flex-basis: 2rem;
+}
+
+.basis-72{
+  flex-basis: 18rem;
+}
+
+.basis-7{
+  flex-basis: 1.75rem;
 }
 
 .rotate-45{
@@ -1432,6 +1504,10 @@ video {
   font-size: 14px;
 }
 
+.text-\[30px\]{
+  font-size: 30px;
+}
+
 .font-light{
   font-weight: 300;
 }
@@ -1655,6 +1731,10 @@ video {
   color: 18p;
 }
 
+.text-\[30\]{
+  color: 30;
+}
+
 .underline{
   text-decoration-line: underline;
 }
@@ -1704,6 +1784,10 @@ p{
   border-width: 1px;
 }
 
+.hover\:border-2:hover{
+  border-width: 2px;
+}
+
 .hover\:border-indigo-300:hover{
   --tw-border-opacity: 1;
   border-color: rgb(165 180 252 / var(--tw-border-opacity));
@@ -1712,6 +1796,16 @@ p{
 .hover\:border-white:hover{
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.hover\:border-gray-300:hover{
+  --tw-border-opacity: 1;
+  border-color: rgb(209 213 219 / var(--tw-border-opacity));
+}
+
+.hover\:border-gray-400:hover{
+  --tw-border-opacity: 1;
+  border-color: rgb(156 163 175 / var(--tw-border-opacity));
 }
 
 .hover\:bg-\[\#000\]:hover{
@@ -2064,6 +2158,10 @@ p{
     font-size: 24px;
   }
 
+  .xs\:text-\[30px\]{
+    font-size: 30px;
+  }
+
   .xs\:leading-normal{
     line-height: 1.5;
   }
@@ -2075,6 +2173,22 @@ p{
 
   .xs\:text-\[px\]{
     color: px;
+  }
+
+  .xs\:text-\[\]{
+    color: ;
+  }
+
+  .xs\:text-\[1\]{
+    color: 1;
+  }
+
+  .xs\:text-\[14\]{
+    color: 14;
+  }
+
+  .xs\:text-\[14p\]{
+    color: 14p;
   }
 }
 
@@ -2541,6 +2655,10 @@ p{
     margin-top: 9rem;
   }
 
+  .lg\:mt-8{
+    margin-top: 2rem;
+  }
+
   .lg\:flex{
     display: flex;
   }
@@ -2835,6 +2953,10 @@ p{
 
   .xl\:mt-\[150px\]{
     margin-top: 150px;
+  }
+
+  .xl\:mt-36{
+    margin-top: 9rem;
   }
 
   .xl\:flex{
