@@ -878,6 +878,16 @@ video {
      object-fit: cover;
 }
 
+.object-fill {
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.object-scale-down {
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+}
+
 .p-1 {
   padding: 0.25rem;
 }
@@ -1145,6 +1155,324 @@ p{
   opacity: 0.6;
 }
 
+@media (min-width: 320px) {
+  .xxs\:top-28 {
+    top: 7rem;
+  }
+
+  .xxs\:top-8 {
+    top: 2rem;
+  }
+
+  .xxs\:top-\[20\%\] {
+    top: 20%;
+  }
+
+  .xxs\:top-\[30\%\] {
+    top: 30%;
+  }
+
+  .xxs\:top-\[50\%\] {
+    top: 50%;
+  }
+
+  .xxs\:top-\[\] {
+    top: ;
+  }
+
+  .xxs\:top-\[30\] {
+    top: 30;
+  }
+
+  .xxs\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .xxs\:my-\[8px\] {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  .xxs\:ml-\[-20px\] {
+    margin-left: -20px;
+  }
+
+  .xxs\:mt-10 {
+    margin-top: 2.5rem;
+  }
+
+  .xxs\:mt-60 {
+    margin-top: 15rem;
+  }
+
+  .xxs\:mt-8 {
+    margin-top: 2rem;
+  }
+
+  .xxs\:mt-9 {
+    margin-top: 2.25rem;
+  }
+
+  .xxs\:mt-\[100px\] {
+    margin-top: 100px;
+  }
+
+  .xxs\:mt-\[10px\] {
+    margin-top: 10px;
+  }
+
+  .xxs\:mt-\[130px\] {
+    margin-top: 130px;
+  }
+
+  .xxs\:ml-\[-0px\] {
+    margin-left: -0px;
+  }
+
+  .xxs\:ml-\[-50px\] {
+    margin-left: -50px;
+  }
+
+  .xxs\:ml-\[\] {
+    margin-left: ;
+  }
+
+  .xxs\:ml-\[-\] {
+    margin-left: -;
+  }
+
+  .xxs\:ml-\[-5\] {
+    margin-left: -5;
+  }
+
+  .xxs\:ml-\[-5p\] {
+    margin-left: -5p;
+  }
+
+  .xxs\:ml-\[-5px\] {
+    margin-left: -5px;
+  }
+
+  .xxs\:ml-\[-15px\] {
+    margin-left: -15px;
+  }
+
+  .xxs\:ml-\[-25px\] {
+    margin-left: -25px;
+  }
+
+  .xxs\:ml-\[-30px\] {
+    margin-left: -30px;
+  }
+
+  .xxs\:block {
+    display: block;
+  }
+
+  .xxs\:hidden {
+    display: none;
+  }
+
+  .xxs\:h-\[50vh\] {
+    height: 50vh;
+  }
+
+  .xxs\:w-10 {
+    width: 2.5rem;
+  }
+
+  .xxs\:w-\[80\%\] {
+    width: 80%;
+  }
+
+  .xxs\:w-\[90\%\] {
+    width: 90%;
+  }
+
+  .xxs\:flex-wrap {
+    flex-wrap: wrap;
+  }
+
+  .xxs\:border-b {
+    border-bottom-width: 1px;
+  }
+
+  .xxs\:border-t {
+    border-top-width: 1px;
+  }
+
+  .xxs\:p-1 {
+    padding: 0.25rem;
+  }
+
+  .xxs\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .xxs\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .xxs\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .xxs\:px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .xxs\:px-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  .xxs\:px-32 {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  .xxs\:px-36 {
+    padding-left: 9rem;
+    padding-right: 9rem;
+  }
+
+  .xxs\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .xxs\:px-\[30px\] {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .xxs\:px-\[32px\] {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .xxs\:px-\[40px\] {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .xxs\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .xxs\:py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .xxs\:py-28 {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+
+  .xxs\:py-\[10px\] {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .xxs\:py-1 {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+
+  .xxs\:px-1 {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
+  .xxs\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .xxs\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .xxs\:px-24 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
+  .xxs\:px-28 {
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+
+  .xxs\:pt-4 {
+    padding-top: 1rem;
+  }
+
+  .xxs\:text-center {
+    text-align: center;
+  }
+
+  .xxs\:text-\[14px\] {
+    font-size: 14px;
+  }
+
+  .xxs\:text-\[18px\] {
+    font-size: 18px;
+  }
+
+  .xxs\:text-\[20px\] {
+    font-size: 20px;
+  }
+
+  .xxs\:text-\[24px\] {
+    font-size: 24px;
+  }
+
+  .xxs\:text-xs {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+
+  .xxs\:text-\[12px\] {
+    font-size: 12px;
+  }
+
+  .xxs\:text-\[2px\] {
+    font-size: 2px;
+  }
+
+  .xxs\:leading-5 {
+    line-height: 1.25rem;
+  }
+
+  .xxs\:leading-normal {
+    line-height: 1.5;
+  }
+
+  .xxs\:text-\[\] {
+    color: ;
+  }
+
+  .xxs\:text-\[1\] {
+    color: 1;
+  }
+
+  .xxs\:text-\[12\] {
+    color: 12;
+  }
+
+  .xxs\:text-\[12p\] {
+    color: 12p;
+  }
+}
+
 @media (min-width: 375px) {
   .xs\:top-28 {
     top: 7rem;
@@ -1234,14 +1562,6 @@ p{
 
   .xs\:flex-wrap {
     flex-wrap: wrap;
-  }
-
-  .xs\:border {
-    border-width: 1px;
-  }
-
-  .xs\:border-b {
-    border-bottom-width: 1px;
   }
 
   .xs\:border-t {
@@ -1635,6 +1955,10 @@ p{
     margin-top: 0px;
   }
 
+  .lg\:mt-\[-300px\] {
+    margin-top: -300px;
+  }
+
   .lg\:flex {
     display: flex;
   }
@@ -1645,6 +1969,10 @@ p{
 
   .lg\:h-full {
     height: 100%;
+  }
+
+  .lg\:h-auto {
+    height: auto;
   }
 
   .lg\:w-32 {
@@ -1769,6 +2097,10 @@ p{
 
   .xl\:mt-\[150px\] {
     margin-top: 150px;
+  }
+
+  .xl\:mt-\[-300px\] {
+    margin-top: -300px;
   }
 
   .xl\:flex {
