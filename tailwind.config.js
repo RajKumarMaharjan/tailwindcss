@@ -3,21 +3,21 @@ module.exports = {
   content: ["*"],
   theme: {
     screens: {
-      'xs': '380px',
+      'xs': '375px',
 
-      'sm': '580px',
+      'sm': '540px',
       // => @media (min-width: 640px) { ... }
 
-      'md': '810px',
+      'md': '768px',
       // => @media (min-width: 768px) { ... }
 
-      'lg': '992px',
+      'lg': '912px',
       // => @media (min-width: 1024px) { ... }
 
-      'xl': '1026px',
+      'xl': '1024px',
       // => @media (min-width: 1290px) { ... }
 
-      '2xl': '1260px',
+      '2xl': '1280px',
       // // => @media (min-width: 1536px) { ... }
       '3xl': '1440px',
       // // => @media (min-width: 1536px) { ... }

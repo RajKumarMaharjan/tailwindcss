@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vista</title>
     <link rel="icon" type="image/x-icon" href="./src/image/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
         integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -15,7 +20,7 @@
 
 <body class="bg-[#141416] scroll-smooth">
     <header>
-        <nav id="nav" class="sticky xs:top-[20px] sm:top-[40px] z-10 text-white">
+        <nav id="nav" class="sticky top-0 bg-[#141517] xs:py-[10px] md:py-[30px] z-10 text-white">
             <div id="nav-content" class="flex justify-between xs:px-[30px] sm:px-[50px] xl:px-[80px]">
                 <div id="main__logo" class="flex items-center space-x-3">
                     <img src="./src/image/company-logo/logo.svg" alt="logo" class="w-10 h-auto">
@@ -57,7 +62,7 @@
                             Get Started
                         </button>
                     </div>
-                    <div id="mobile__menu" onclick="toggleDropdown()" class="xs:block lg:hidden">
+                    <div id="mobile__menu" onclick="toggleDropdown()" class="xs:block lg:hidden xs:ml-[-20px] sm:ml-[-10px]">
                         <div id="bar-icon"><i class="fa fa-bars" aria-hidden="true"></i></div>
                     </div>
                 </div>
@@ -82,17 +87,17 @@
             <img src="./src/image/banner-bg.jpg" alt="banner" class="w-full h-100vh">
         </div>
         <div id="banner-content"
-            class="absolute xs:top-[16%] sm:top-[18%] md:top-[30%] xl:top-[20%] xs:px-[30px] sm:px-[50px] xl:px-[80px]">
+            class="absolute xs:top-[20%] sm:top-[18%] md:top-[30%] xs:px-[30px] sm:px-[50px] xl:px-[80px]">
             <h1
-                class="xs:text-3xl sm:text-5xl md:text-6xl 2xl:text-7xl 3xl:text-[80px] tracking-wide text-white font-normal xs:w-[90%] sm:w-[90%] md:w-[75%] lg:w-[70%] xl:w-[65%] 2xl:w-[70%] 3xl:w-[60%]  xs:leading-normal sm:leading-snug lg:leading-tight xl:leading-snug 3xl:leading-tight">
+                class="xs:text-[24px] sm:text-[28px] md:text-[52px]  2xl:text-[80px] tracking-wide text-white font-normal xs:w-[90%] sm:w-[90%] md:w-[75%] lg:w-[70%] xl:w-[65%] 2xl:w-[70%] 3xl:w-[60%]  xs:leading-normal sm:leading-snug lg:leading-tight xl:leading-snug 3xl:leading-tight">
                 The New Standard in Data Analysis
             </h1>
             <p
-                class="xs:text-md sm:text-3xl xl:text-[30px] break-words 3xl:leading-relaxed text-white xs:w-[80%] sm:w-[90%] md:w-[70%] lg:w-[50%] 3xl:w-[36%] xs:my-0 sm:my-8 md:my-12">
+                class="xs:text-[14px] sm:text-[18px] md:text-[30px] break-words 3xl:leading-relaxed text-white xs:w-[80%] sm:w-[90%] md:w-[70%] lg:w-[50%] 3xl:w-[36%] xs:my-[8px] sm:my-8 md:my-12">
                 Use Data to Get a 360-Degree View of Your Business
             </p>
             <button
-                class="bg-[#FD6161] border border-transparent xs:py-1 xs:px-2 md:py-4 md:px-8 rounded-md text-[16px] my-8 hover:bg-[#000] hover:text-white hover:border hover:border-white transition ease-out duration-1000">
+                class="bg-[#FD6161] border border-transparent xs:py-0 xs:mt-[10px] xs:px-2 md:py-4 md:px-8 rounded-md text-[16px] my-8 hover:bg-[#000] hover:text-white hover:border hover:border-white transition ease-out duration-1000">
                 Learn More
             </button>
         </div>
@@ -105,11 +110,11 @@
                     <div id="left-box-content"
                         class="absolute xs:top-28 sm:top-44 xl:top-48 xs:px-[30px] sm:px-[50px] xl:px-[80px] 2xl:px-[80px] 3xl:px-[100px] tracking-wider">
                         <h2
-                            class="text-white xs:text-2xl sm:text-3xl md:text-[30px] leading-8 md:px-32 lg:px-44 xl:px-48 2xl:px-0 xs:text-center 2xl:text-start">
+                            class="text-white xs:text-[24px] sm:text-3xl md:text-[30px] leading-8 md:px-32 lg:px-44 xl:px-48 2xl:px-0 xs:text-center 2xl:text-start">
                             Let Your Data Take Your Business to Higher Grounds
                         </h2>
                         <p
-                            class="xs:text-[14px] sm:text-[16px] leading-7 xs:text-center 2xl:text-start 2xl:font-light mt-7 ">
+                            class="xs:text-[14px] sm:text-[16px] xs:leading-5 sm:leading-7 xs:text-center 2xl:text-start 2xl:font-light mt-7 ">
                             I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit
                             Text”
                             or double click me to add your own content and make changes to the font.
@@ -117,7 +122,7 @@
                     </div>
                 </div>
                 <div id="your-data-right"
-                    class="2xl:border-l  border-[#8a8a8a] bg-[#141416] flex justify-center lg:w-[850px] xs:px-[30px] xs:mx-auto xs:mt-[-200px] sm:mt-[-250px] md:mt-[-300px] lg:mt[-500px] xl:mt-[-500px] 2xl:mt-[0px] ">
+                    class="2xl:border-l  border-[#8a8a8a] bg-[#141416] flex justify-center lg:w-[850px] xs:px-[30px] sm:px-[50px] xs:mx-auto xs:mt-[100px] sm:mt-[-250px] md:mt-[-300px] lg:mt[-500px] xl:mt-[-500px] 2xl:mt-[0px] ">
                     <div id="your-data-right-cards" class=" md:flex md:gap-12 2xl:gap-4 justify-center md:mx-0 ">
                         <div id="cards-left" class="relative md:-top-28 sm:top-10">
                             <div id="Cloud-Analytics" class="text-white bg-[#1B1C1E] md:w-[245px] p-[10%] rounded-xl">
@@ -179,16 +184,17 @@
         <div id="Vision-velocity" class="relative 2xl:px-[80px] xs:mt-[130px] sm:mt-52 xl:mt-[150px] 2xl:mt-[250px]">
             <div id="velocity-box" class="grid 2xl:grid-cols-2 2xl:border 2xl:h-auto border-[#8A8A8A] overflow-hidden ">
                 <div id="velocity-left-box" class="h-auto relative">
-                    <img src="./src/image/red-wave.jpg" alt="wave" class="w-[100%] xs:h-[80vh] 2xl:h-auto object-cover">
+                    <img src="./src/image/red-wave.jpg" alt="wave"
+                        class="w-[100%] xs:h-[50vh] sm:h-[80vh] 2xl:h-auto object-cover">
 
                     <h2
-                        class="text-white text-[30px] leading-tight text-center absolute top-[45%] xs:px-[30px] sm:px-[50px] lg:px-52 2xl:px-14 tracking-wide">
+                        class="text-white xs:text-[24px] sm:text-[30px] leading-tight text-center absolute xs:top-[30%] sm:top-[45%] xs:px-[30px] sm:px-[50px] lg:px-52 2xl:px-14 tracking-wide">
                         Unprecedented Velocity. Impeccable Reliability.
                     </h2>
                 </div>
                 <div id="velocity-right-box"
                     class="2xl:border-l border-[#8a8a8a] flex flex-col items-center justify-center">
-                    <div id="right-box-content" class="xs:px-[40px] sm:px-[50px] xl:px-[80px] 2xl:px-[150px] ">
+                    <div id="right-box-content" class="xs:px-[40px] sm:px-[50px] xl:px-[80px] 2xl:py-[100px] 2xl:px-[130px] 3xl:px-[150px]">
                         <p class="xs:text-[14px] sm:text-[16px] font-normal leading-7">
                             I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit
                             Text” or double click me to add your own content and make changes to the font. Feel free to
@@ -215,7 +221,7 @@
         <div id="Programs-numbers" class="xs:px-[30px]">
             <div id="numbers-content" class="relative flex flex-col justify-center content-center">
                 <h2
-                    class="text-white text-balance xs:text-3xl text-center sm:px-22 lg:text-[30px] flex justify-center mt-32">
+                    class="text-white text-balance xs:text-[20px] sm:text-[30px] text-center xs:px-16 flex justify-center mt-32">
                     We Take Pride in Our Numbers
                 </h2>
                 <div id="Experience-cards"
@@ -260,47 +266,45 @@
         </div>
     </section>
     <section id="our-partners">
-        <div id="business-partner" class="sm:px-[40px] lg:px-[50px] xl:px-[80px]">
-            <div id="our-partners"
-                class="lg:flex lg:border-t border-[#8a8a8a] xs:px-4 xs:mt-44 sm:mt-12 lg:mt-0 md:px-64 lg:px-0 ">
+        <div id="business-partner" class="xs:px-0 lg:px-[50px] xl:px-[80px] xs:mt-60 lg:mt-0">
+            <div id="our-partners" class="lg:flex size-full xs:border-t lg:border border-b-0 border-[#8a8a8a]">
                 <div id="partner"
-                    class="w-[350px]  lg:border-r lg:border-l border-[#8a8a8a] flex items-center justify-center">
-                    <p
-                        class="text-3xl xs:px-[65px] sm:px-[50px] md:px-[10px] xl:px-[30px] text-white font-light sm:ml-8">
+                    class="lg:border-r flex-1 py-12 xs:px-32 sm:px-44 md:px-72 lg:px-8 border-[#8a8a8a] flex items-center">
+                    <p class="lg:w-32 xs:text-[18px] sm:text-[30px] font-normal line-clamp-4 text-white break-words">
                         Our Partners
                     </p>
                 </div>
                 <div id="company-logo1"
-                    class="w-[350px] lg:border-r border-[#8a8a8a] pt-[4%] xs:mt-6 lg:mt-0 py-10 flex items-center justify-center">
-                    <img src="./src/image/company-logo/Group 16.webp" alt="logo" class="xs:w-[40%] lg:w-[50%] m-auto">
+                    class="flex-1 flex items-center py-12 xs:px-36 sm:px-52 md:px-72 lg:px-8 xs:border-t lg:border-t-0 lg:border-r border-[#8a8a8a]">
+                    <img src="./src/image/company-logo/Group 16.webp" alt="logo" class="w-[90%]">
                 </div>
                 <div id="company-logo2"
-                    class="w-[350px] lg:border-r border-[#8a8a8a] pt-[4%] xs:mt-6 lg:mt-0 py-10 flex items-center justify-center">
-                    <img src="./src/image/company-logo/Group 17.webp" alt="logo" class="xs:w-[30%] lg:w-[40%] m-auto">
+                    class="flex-1 flex items-center py-12 xs:px-36 sm:px-52 md:px-72 lg:px-8 xs:border-t lg:border-t-0 lg:border-r border-[#8a8a8a]">
+                    <img src="./src/image/company-logo/Group 28.webp" alt="logo" class="w-[70%]">
                 </div>
                 <div id="company-logo3"
-                    class="w-[350px] lg:border-r border-[#8a8a8a] pt-[4%] xs:mt-6 lg:mt-0 py-10 flex items-center justify-center">
-                    <img src="./src/image/company-logo/Group 20.webp" alt="logo" class="xs:w-[40%] lg:w-[50%] m-auto">
+                    class="flex-1 flex items-center py-12 xs:px-36 sm:px-52 md:px-72 lg:px-8 border-y lg:border-y-0 lg:border-r border-[#8a8a8a]">
+                    <img src="./src/image/company-logo/Group 20.webp" alt="logo" class="w-[90%]">
                 </div>
-                <div id="company-logo4"
-                    class="w-[350px] lg:border-r border-[#8a8a8a] pt-[4%] xs:mt-6 lg:mt-0 py-10 flex items-center justify-center">
-                    <img src="./src/image/company-logo/Group 28.webp" alt="logo" class="w-[33%] m-auto">
+                <div id="company-logo4" class="flex-1 flex items-center py-12 xs:px-36 sm:px-52 md:px-72 lg:px-8 xs:border-b lg:border-b-0 border-[#8a8a8a]">
+                    <img src="./src/image/company-logo/Group 17.webp" alt="logo" class="w-[70%]">
                 </div>
             </div>
-            <div id="partner-content" class="sm:mt-[100px] md:mt-[400px] lg:mt-0 lg:flex lg:border border-[#8a8a8a]">
+            <div id="partner-content"
+                class="sm:mt-[100px] md:mt-[400px] lg:mt-0 lg:flex lg:border border-t-0 border-[#8a8a8a]">
                 <div id="partner-left-content"
-                    class="lg:w-[162.5rem] lg:border-r border-[#8a8a8a] overflow-hidden relative md:mt-[-20rem] lg:mt-0">
+                    class="lg:flex-[185rem] xl:flex-[173rem] 2xl:flex-[180rem] 3xl:flex-[168rem] lg:border-r border-[#8a8a8a] overflow-hidden relative md:mt-[-20rem] lg:mt-0">
                     <img src="./src/image/images.jpeg" alt="galaxy"
                         class="w-full sm:h-[200px] md:h-[400px] lg:h-full sm:object-cover lg:object-fill scale-125">
                     <div id="content">
                         <h4
-                            class="text-white text-[30px] leading-12 absolute xs:top-[50%] sm:top-[30%] md:top-[40%] xs:px-10 sm:px-16 xs:text-center md:px-52 lg:px-6 2xl:px-36">
+                            class="text-white xs:text-[24px] sm:text-[30px] leading-12 absolute xs:top-[50%] sm:top-[30%] md:top-[40%] xs:px-10 sm:px-16 xs:text-center md:px-52 lg:px-6 2xl:px-36">
                             Are You Ready to Accelerate Your Business?
                         </h4>
                     </div>
                 </div>
                 <div id="partner-right-content"
-                    class=" xs:py-28 xs:px-[30px] xl:px-[110px] xs:text-center lg:text-left lg:py-16 2xl:py-28">
+                    class=" xs:py-28 xs:px-[30px] sm:px-[50px] 2xl:px-[80px] xs:text-center lg:text-left lg:py-16 2xl:py-28">
                     <p class="xs:text-[14px] sm:text-[16px] leading-8 xl:mt-10">
                         I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text”
                         or double click me to add your own content and make changes to the font.
@@ -316,7 +320,7 @@
     </section>
     <footer>
         <div id="bottm-banner"
-            class="text-[#8A8A8A] xl:flex justify-around space-x-0 xs:px-[32px] lg:px-[48px] xl:px-[80px] 2xl:px-[45px] 3xl:px-[15px] py-32 ">
+            class="text-[#8A8A8A] xl:flex justify-around space-x-0 xs:px-[32px] sm:px-[50px] lg:px-[48px] xl:px-[80px] 2xl:px-[45px] 3xl:px-[15px] py-32 ">
             <div id="company-address" class="basis-60">
                 <div id="logo" class="flex items-center gap-2">
                     <img src="./src/image/company-logo/footor-logo.svg" alt="logo" class="xs:w-10">
@@ -336,7 +340,7 @@
                 </div>
 
             </div>
-            <div id="menu-items" class="lg:mt-8 xl:mt-0">
+            <div id="menu-items" class="xs:mt-8 xl:mt-0">
                 <ul class="text-[18px] leading-12 font-light">
                     <li>
                         <a href="#">Solutions</a>
@@ -352,11 +356,11 @@
                     </li>
                 </ul>
                 <button
-                    class="bg-[#FD6161] border border-transparent xs:py-2 xs:px-4 md:py-4 md:px-8 rounded-md text-[16px] text-black my-8 hover:bg-[#000] hover:text-white hover:border hover:border-white transition ease-out duration-1000">
+                    class="bg-[#FD6161] border border-transparent xs:py-2 xs:px-3 md:py-3 2xl:px-8 2xl:py-4 md:px-8 rounded-md text-[16px] text-black my-8 hover:bg-[#000] hover:text-white hover:border hover:border-white transition ease-out duration-1000">
                     Get Started
                 </button>
             </div>
-            <div id="subscribe" class="leading-10 sm:mt-10 lg:mt-0 basis-96">
+            <div id="subscribe" class="leading-10 sm:mt-10 lg:mt-0 2xl:basis-96">
                 <h4 class="text-[18px] leading-8 font-light mb-4 xs:pt-4 lg:pt-0">Subscribe to Our Newsletter</h4>
                 <form method="get" class="flex flex-col">
                     <label for="email" class="font-thin">Email *</label>
