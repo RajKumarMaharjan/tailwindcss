@@ -661,6 +661,10 @@ video {
   width: 100%;
 }
 
+.w-\[170px\] {
+  width: 170px;
+}
+
 .w-\[200px\] {
   width: 200px;
 }
@@ -700,12 +704,12 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.flex-col {
-  flex-direction: column;
+.cursor-pointer {
+  cursor: pointer;
 }
 
-.flex-wrap {
-  flex-wrap: wrap;
+.flex-col {
+  flex-direction: column;
 }
 
 .content-center {
@@ -823,6 +827,14 @@ video {
 
 .border-t-0 {
   border-top-width: 0px;
+}
+
+.border-t {
+  border-top-width: 1px;
+}
+
+.border-b {
+  border-bottom-width: 1px;
 }
 
 .border-\[\#8A8A8A\] {
@@ -964,45 +976,13 @@ video {
   font-size: 18px;
 }
 
+.text-\[30px\] {
+  font-size: 30px;
+}
+
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
-}
-
-.text-\[50\%\] {
-  font-size: 50%;
-}
-
-.text-\[0\%\] {
-  font-size: 0%;
-}
-
-.text-\[10\%\] {
-  font-size: 10%;
-}
-
-.text-\[100\%\] {
-  font-size: 100%;
-}
-
-.text-\[1000\%\] {
-  font-size: 1000%;
-}
-
-.text-\[00\%\] {
-  font-size: 00%;
-}
-
-.text-\[300\%\] {
-  font-size: 300%;
-}
-
-.text-\[200\%\] {
-  font-size: 200%;
-}
-
-.text-\[30px\] {
-  font-size: 30px;
 }
 
 .font-light {
@@ -1088,14 +1068,6 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-\[\] {
-  color: ;
-}
-
-.text-\[50\] {
-  color: 50;
-}
-
 .underline {
   text-decoration-line: underline;
 }
@@ -1173,6 +1145,11 @@ p{
 .hover\:bg-indigo-300:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(165 180 252 / var(--tw-bg-opacity));
+}
+
+.hover\:text-\[\#6a6a6a\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(106 106 106 / var(--tw-text-opacity));
 }
 
 .hover\:text-\[\#FD6161\]:hover {
@@ -1281,14 +1258,6 @@ p{
     width: 90%;
   }
 
-  .xxs\:w-full {
-    width: 100%;
-  }
-
-  .xxs\:min-w-full {
-    min-width: 100%;
-  }
-
   .xxs\:flex-wrap {
     flex-wrap: wrap;
   }
@@ -1299,6 +1268,10 @@ p{
 
   .xxs\:border-t {
     border-top-width: 1px;
+  }
+
+  .xxs\:border-t-0 {
+    border-top-width: 0px;
   }
 
   .xxs\:p-1 {
@@ -1340,6 +1313,11 @@ p{
     padding-right: 1rem;
   }
 
+  .xxs\:px-\[25\%\] {
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+
   .xxs\:px-\[30px\] {
     padding-left: 30px;
     padding-right: 30px;
@@ -1353,6 +1331,11 @@ p{
   .xxs\:px-\[40px\] {
     padding-left: 40px;
     padding-right: 40px;
+  }
+
+  .xxs\:px-\[5\%\] {
+    padding-left: 5%;
+    padding-right: 5%;
   }
 
   .xxs\:py-0 {
@@ -1373,101 +1356,6 @@ p{
   .xxs\:py-\[10px\] {
     padding-top: 10px;
     padding-bottom: 10px;
-  }
-
-  .xxs\:px-\[\] {
-    padding-left: ;
-    padding-right: ;
-  }
-
-  .xxs\:px-\[2\] {
-    padding-left: 2;
-    padding-right: 2;
-  }
-
-  .xxs\:px-\[20\] {
-    padding-left: 20;
-    padding-right: 20;
-  }
-
-  .xxs\:px-\[20\%\] {
-    padding-left: 20%;
-    padding-right: 20%;
-  }
-
-  .xxs\:px-\[0\%\] {
-    padding-left: 0%;
-    padding-right: 0%;
-  }
-
-  .xxs\:px-\[10\%\] {
-    padding-left: 10%;
-    padding-right: 10%;
-  }
-
-  .xxs\:px-\[30\%\] {
-    padding-left: 30%;
-    padding-right: 30%;
-  }
-
-  .xxs\:px-\[\%\] {
-    padding-left: %;
-    padding-right: %;
-  }
-
-  .xxs\:px-\[2\%\] {
-    padding-left: 2%;
-    padding-right: 2%;
-  }
-
-  .xxs\:px-\[28\%\] {
-    padding-left: 28%;
-    padding-right: 28%;
-  }
-
-  .xxs\:px-\[29\%\] {
-    padding-left: 29%;
-    padding-right: 29%;
-  }
-
-  .xxs\:px-\[24\%\] {
-    padding-left: 24%;
-    padding-right: 24%;
-  }
-
-  .xxs\:px-\[25\%\] {
-    padding-left: 25%;
-    padding-right: 25%;
-  }
-
-  .xxs\:px-\[5\] {
-    padding-left: 5;
-    padding-right: 5;
-  }
-
-  .xxs\:px-\[5\%\] {
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-
-  .xxs\:px-\[1\%\] {
-    padding-left: 1%;
-    padding-right: 1%;
-  }
-
-  .xxs\:px-\[8\%\] {
-    padding-left: 8%;
-    padding-right: 8%;
-  }
-
-  .xxs\:px-\[7\%\] {
-    padding-left: 7%;
-    padding-right: 7%;
-  }
-
-  .xxs\:px-\[6\%\] {
-    padding-left: 6%;
-    padding-right: 6%;
   }
 
   .xxs\:pt-4 {
@@ -1498,20 +1386,12 @@ p{
     font-size: 24px;
   }
 
-  .xxs\:text-\[2px\] {
-    font-size: 2px;
-  }
-
   .xxs\:leading-5 {
     line-height: 1.25rem;
   }
 
   .xxs\:leading-normal {
     line-height: 1.5;
-  }
-
-  .xxs\:text-\[px\] {
-    color: px;
   }
 }
 
@@ -1540,84 +1420,9 @@ p{
     padding-right: 9rem;
   }
 
-  .xs\:py-2 {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-  }
-
-  .xs\:px-2 {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
-
-  .xs\:px-24 {
-    padding-left: 6rem;
-    padding-right: 6rem;
-  }
-
-  .xs\:px-28 {
-    padding-left: 7rem;
-    padding-right: 7rem;
-  }
-
-  .xs\:px-\[\] {
-    padding-left: ;
-    padding-right: ;
-  }
-
-  .xs\:px-\[5\] {
-    padding-left: 5;
-    padding-right: 5;
-  }
-
-  .xs\:px-\[50\] {
-    padding-left: 50;
-    padding-right: 50;
-  }
-
-  .xs\:px-\[50\%\] {
-    padding-left: 50%;
-    padding-right: 50%;
-  }
-
-  .xs\:px-\[5\%\] {
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-
-  .xs\:px-\[\%\] {
-    padding-left: %;
-    padding-right: %;
-  }
-
-  .xs\:px-\[1\%\] {
-    padding-left: 1%;
-    padding-right: 1%;
-  }
-
-  .xs\:px-\[10\%\] {
-    padding-left: 10%;
-    padding-right: 10%;
-  }
-
-  .xs\:px-\[15\%\] {
-    padding-left: 15%;
-    padding-right: 15%;
-  }
-
-  .xs\:px-\[25\%\] {
-    padding-left: 25%;
-    padding-right: 25%;
-  }
-
-  .xs\:px-\[2\%\] {
-    padding-left: 2%;
-    padding-right: 2%;
-  }
-
-  .xs\:px-\[3\%\] {
-    padding-left: 3%;
-    padding-right: 3%;
+  .xs\:px-\[11\%\] {
+    padding-left: 11%;
+    padding-right: 11%;
   }
 
   .xs\:px-\[30\%\] {
@@ -1625,64 +1430,9 @@ p{
     padding-right: 30%;
   }
 
-  .xs\:px-\[28\%\] {
-    padding-left: 28%;
-    padding-right: 28%;
-  }
-
-  .xs\:px-\[20\%\] {
-    padding-left: 20%;
-    padding-right: 20%;
-  }
-
-  .xs\:px-\[15\%\%\] {
-    padding-left: 15%%;
-    padding-right: 15%%;
-  }
-
-  .xs\:px-\[2\] {
-    padding-left: 2;
-    padding-right: 2;
-  }
-
-  .xs\:px-\[28\] {
-    padding-left: 28;
-    padding-right: 28;
-  }
-
-  .xs\:px-\[10\] {
-    padding-left: 10;
-    padding-right: 10;
-  }
-
-  .xs\:px-\[12\%\] {
-    padding-left: 12%;
-    padding-right: 12%;
-  }
-
-  .xs\:px-\[11\%\] {
-    padding-left: 11%;
-    padding-right: 11%;
-  }
-
-  .xs\:text-\[30px\] {
-    font-size: 30px;
-  }
-
-  .xs\:text-\[24px\] {
-    font-size: 24px;
-  }
-
-  .xs\:text-\[\] {
-    color: ;
-  }
-
-  .xs\:text-\[24\] {
-    color: 24;
-  }
-
-  .xs\:text-\[24p\] {
-    color: 24p;
+  .xs\:py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
 }
 
@@ -1790,6 +1540,16 @@ p{
     padding-right: 100px;
   }
 
+  .sm\:px-\[15\%\] {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  .sm\:px-\[33\%\] {
+    padding-left: 33%;
+    padding-right: 33%;
+  }
+
   .sm\:px-\[50px\] {
     padding-left: 50px;
     padding-right: 50px;
@@ -1798,91 +1558,6 @@ p{
   .sm\:py-3 {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
-  }
-
-  .sm\:px-\[\] {
-    padding-left: ;
-    padding-right: ;
-  }
-
-  .sm\:px-\[3\] {
-    padding-left: 3;
-    padding-right: 3;
-  }
-
-  .sm\:px-\[35\] {
-    padding-left: 35;
-    padding-right: 35;
-  }
-
-  .sm\:px-\[35\%\] {
-    padding-left: 35%;
-    padding-right: 35%;
-  }
-
-  .sm\:px-\[3\%\] {
-    padding-left: 3%;
-    padding-right: 3%;
-  }
-
-  .sm\:px-\[30\%\] {
-    padding-left: 30%;
-    padding-right: 30%;
-  }
-
-  .sm\:px-\[33\%\] {
-    padding-left: 33%;
-    padding-right: 33%;
-  }
-
-  .sm\:px-\[5\] {
-    padding-left: 5;
-    padding-right: 5;
-  }
-
-  .sm\:px-\[20\] {
-    padding-left: 20;
-    padding-right: 20;
-  }
-
-  .sm\:px-\[20\%\] {
-    padding-left: 20%;
-    padding-right: 20%;
-  }
-
-  .sm\:px-\[2\%\] {
-    padding-left: 2%;
-    padding-right: 2%;
-  }
-
-  .sm\:px-\[24\%\] {
-    padding-left: 24%;
-    padding-right: 24%;
-  }
-
-  .sm\:px-\[28\%\] {
-    padding-left: 28%;
-    padding-right: 28%;
-  }
-
-  .sm\:px-\[\%\] {
-    padding-left: %;
-    padding-right: %;
-  }
-
-  .sm\:px-\[25\%\] {
-    padding-left: 25%;
-    padding-right: 25%;
-  }
-
-  .sm\:px-\[1\%\] {
-    padding-left: 1%;
-    padding-right: 1%;
-  }
-
-  .sm\:px-\[15\%\] {
-    padding-left: 15%;
-    padding-right: 15%;
   }
 
   .sm\:text-3xl {
@@ -1983,6 +1658,11 @@ p{
     padding-right: 8rem;
   }
 
+  .md\:px-44 {
+    padding-left: 11rem;
+    padding-right: 11rem;
+  }
+
   .md\:px-52 {
     padding-left: 13rem;
     padding-right: 13rem;
@@ -2003,6 +1683,16 @@ p{
     padding-right: 100px;
   }
 
+  .md\:px-\[24\%\] {
+    padding-left: 24%;
+    padding-right: 24%;
+  }
+
+  .md\:px-\[36\%\] {
+    padding-left: 36%;
+    padding-right: 36%;
+  }
+
   .md\:py-3 {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
@@ -2016,106 +1706,6 @@ p{
   .md\:py-\[30px\] {
     padding-top: 30px;
     padding-bottom: 30px;
-  }
-
-  .md\:px-\[\] {
-    padding-left: ;
-    padding-right: ;
-  }
-
-  .md\:px-\[3\] {
-    padding-left: 3;
-    padding-right: 3;
-  }
-
-  .md\:px-\[35\] {
-    padding-left: 35;
-    padding-right: 35;
-  }
-
-  .md\:px-\[35\%\] {
-    padding-left: 35%;
-    padding-right: 35%;
-  }
-
-  .md\:px-\[3\%\] {
-    padding-left: 3%;
-    padding-right: 3%;
-  }
-
-  .md\:px-\[38\%\] {
-    padding-left: 38%;
-    padding-right: 38%;
-  }
-
-  .md\:px-\[33\%\] {
-    padding-left: 33%;
-    padding-right: 33%;
-  }
-
-  .md\:px-\[36\%\] {
-    padding-left: 36%;
-    padding-right: 36%;
-  }
-
-  .md\:px-\[37\%\] {
-    padding-left: 37%;
-    padding-right: 37%;
-  }
-
-  .md\:px-4 {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
-  .md\:px-44 {
-    padding-left: 11rem;
-    padding-right: 11rem;
-  }
-
-  .md\:px-\[50\] {
-    padding-left: 50;
-    padding-right: 50;
-  }
-
-  .md\:px-\[5\] {
-    padding-left: 5;
-    padding-right: 5;
-  }
-
-  .md\:px-\[2\] {
-    padding-left: 2;
-    padding-right: 2;
-  }
-
-  .md\:px-\[20\] {
-    padding-left: 20;
-    padding-right: 20;
-  }
-
-  .md\:px-\[20\%\] {
-    padding-left: 20%;
-    padding-right: 20%;
-  }
-
-  .md\:px-\[0\%\] {
-    padding-left: 0%;
-    padding-right: 0%;
-  }
-
-  .md\:px-\[50\%\] {
-    padding-left: 50%;
-    padding-right: 50%;
-  }
-
-  .md\:px-\[2\%\] {
-    padding-left: 2%;
-    padding-right: 2%;
-  }
-
-  .md\:px-\[24\%\] {
-    padding-left: 24%;
-    padding-right: 24%;
   }
 
   .md\:text-\[30px\] {
@@ -2181,16 +1771,8 @@ p{
     width: 850px;
   }
 
-  .lg\:w-3 {
-    width: 0.75rem;
-  }
-
   .lg\:flex-\[185rem\] {
     flex: 185rem;
-  }
-
-  .lg\:flex-nowrap {
-    flex-wrap: nowrap;
   }
 
   .lg\:border {
@@ -2212,6 +1794,10 @@ p{
 
   .lg\:border-t-0 {
     border-top-width: 0px;
+  }
+
+  .lg\:border-b {
+    border-bottom-width: 1px;
   }
 
   .lg\:object-fill {
@@ -2239,6 +1825,11 @@ p{
     padding-right: 2rem;
   }
 
+  .lg\:px-\[30\%\] {
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+
   .lg\:px-\[48px\] {
     padding-left: 48px;
     padding-right: 48px;
@@ -2252,31 +1843,6 @@ p{
   .lg\:py-16 {
     padding-top: 4rem;
     padding-bottom: 4rem;
-  }
-
-  .lg\:px-0 {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
-  .lg\:px-\[\] {
-    padding-left: ;
-    padding-right: ;
-  }
-
-  .lg\:px-\[3\] {
-    padding-left: 3;
-    padding-right: 3;
-  }
-
-  .lg\:px-\[30\] {
-    padding-left: 30;
-    padding-right: 30;
-  }
-
-  .lg\:px-\[30\%\] {
-    padding-left: 30%;
-    padding-right: 30%;
   }
 
   .lg\:pt-0 {
@@ -2295,34 +1861,6 @@ p{
 @media (min-width: 1024px) {
   .xl\:top-48 {
     top: 12rem;
-  }
-
-  .xl\:top-0 {
-    top: 0px;
-  }
-
-  .xl\:top-\[\] {
-    top: ;
-  }
-
-  .xl\:top-\[5\] {
-    top: 5;
-  }
-
-  .xl\:top-\[50\] {
-    top: 50;
-  }
-
-  .xl\:top-\[50\%\] {
-    top: 50%;
-  }
-
-  .xl\:top-\[0\%\] {
-    top: 0%;
-  }
-
-  .xl\:top-\[30\%\] {
-    top: 30%;
   }
 
   .xl\:mx-4 {
@@ -2371,39 +1909,14 @@ p{
     padding-right: 12rem;
   }
 
-  .xl\:px-\[80px\] {
-    padding-left: 80px;
-    padding-right: 80px;
-  }
-
-  .xl\:px-\[\] {
-    padding-left: ;
-    padding-right: ;
-  }
-
-  .xl\:px-\[30\] {
-    padding-left: 30;
-    padding-right: 30;
-  }
-
   .xl\:px-\[30\%\] {
     padding-left: 30%;
     padding-right: 30%;
   }
 
-  .xl\:px-\[0\%\] {
-    padding-left: 0%;
-    padding-right: 0%;
-  }
-
-  .xl\:px-\[40\%\] {
-    padding-left: 40%;
-    padding-right: 40%;
-  }
-
-  .xl\:px-\[20\%\] {
-    padding-left: 20%;
-    padding-right: 20%;
+  .xl\:px-\[80px\] {
+    padding-left: 80px;
+    padding-right: 80px;
   }
 
   .xl\:leading-snug {
