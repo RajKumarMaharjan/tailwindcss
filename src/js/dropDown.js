@@ -19,9 +19,15 @@ function toggleBtn(element){
 
 loginBtn.addEventListener('click', function(event){
     event.stopPropagation();
+    handbugMenu.style.display = 'none';
 });
 
 handbugBtn.addEventListener('click', function(event){
     event.stopPropagation();
+    profileMenu.style.display = 'none';
 });
 
+document.addEventListener('click', () => {
+   profileMenu.style.display = (!profileMenu.style.display === 'none') ? 'block':'none'
+   handbugMenu.style.display = (!handbugMenu.style.display === 'none') ? 'block':'none'
+})
