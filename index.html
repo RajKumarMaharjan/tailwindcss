@@ -50,7 +50,7 @@
                         <button id="notification" class="xxs:hidden sm:block">
                             <i class="fa fa-bell text-[#FD6161]" aria-hidden="true"></i>
                         </button>
-                        <button id="login" onclick="toggleDropdown(dropdownProfile)"
+                        <button id="login" onclick="toggleBtn(profileMenu)"
                             class="xxs:hidden sm:block flex space-x-2 items-center text-2xl lg:mx-2 xl:mx-4 hover:opacity-60 duration-[0.3s]">
                             <i class="fa fa-user-circle" aria-hidden="true"></i>
                             <i class="fa fa-angle-down text-[#FD6161]" aria-hidden="true"></i>
@@ -60,7 +60,7 @@
                             Get Started
                         </button>
                     </div>
-                    <div id="mobile__menu" onclick="toggleDropdown(dropdown)" class="xxs:block lg:hidden xxs:ml-[-20px] sm:ml-[-10px] cursor-pointer">
+                    <div id="mobile__menu" onclick="toggleBtn(handbugMenu)" class="xxs:block lg:hidden xxs:ml-[-20px] sm:ml-[-10px] cursor-pointer">
                         <div id="bar-icon"><i class="fa fa-bars" aria-hidden="true"></i></div>
                     </div>
                 </div>
@@ -68,28 +68,28 @@
             <div id="dropdown" class="hidden absolute right-0">
                 <div id="dropdown-menu"
                     class="flex flex-col border border-[#8a8a8a] rounded-lg w-[200px] py-6 bg-[#141517] text-[#8A8A8A] text-lg leading-loose float-end mr-[100px] mt-6">
-                    <a href="#solution" onclick="closeDropdown()"
+                    <a href="#solution"
                         class="hover:bg-[#FD6161] transition duration-800 ease-in-out  hover:text-[#6a6a6a] px-8">Solution</a>
-                    <a href="#vision" onclick="closeDropdown()"
+                    <a href="#vision"
                         class="hover:bg-[#FD6161] transition duration-800 ease-in-out  hover:text-[#6a6a6a] px-8">Vision</a>
-                    <a href="#programs" onclick="closeDropdown()"
+                    <a href="#programs"
                         class="hover:bg-[#FD6161] transition duration-800 ease-in-out  hover:text-[#6a6a6a] px-8">Programs</a>
-                    <a href="#our-partners" onclick="closeDropdown()"
+                    <a href="#our-partners"
                         class="hover:bg-[#FD6161] transition duration-800 ease-in-out  hover:text-[#6a6a6a] px-8">Blog</a>
-                    <a href="#" onclick="closeDropdown()"
+                    <a href="#"
                         class="hover:bg-[#FD6161] transition duration-800 ease-in-out  hover:text-[#6a6a6a] px-8 xxs:block sm:hidden">Profile</a>
                 </div>
             </div>
             <div id="dropdown-profile" class="hidden absolute right-0">
                 <div id="profile-menu"
                     class="flex flex-col border border-[#8a8a8a] rounded-lg w-[170px] py-6 bg-[#141517] text-[#8A8A8A] text-lg leading-loose float-end mr-[100px] mt-6">
-                    <a href="#" onclick="closeDropdown()"
+                    <a href="#"
                         class="hover:bg-[#FD6161] transition duration-800 ease-in-out  hover:text-[#6a6a6a] px-8">Your Profile</a>
-                    <a href="#" onclick="closeDropdown()"
+                    <a href="#"
                         class="hover:bg-[#FD6161] transition duration-800 ease-in-out  hover:text-[#6a6a6a] px-8">My Program</a>
-                    <a href="#" onclick="closeDropdown()"
+                    <a href="#"
                         class="hover:bg-[#FD6161] transition duration-800 ease-in-out  hover:text-[#6a6a6a] px-8">My Account</a>
-                    <a href="#" onclick="closeDropdown()"
+                    <a href="#"
                         class="hover:bg-[#FD6161] transition duration-800 ease-in-out  hover:text-[#6a6a6a] px-8">Log Out</a>
             </div>
         </nav>
@@ -404,7 +404,7 @@
         </div>
     </footer>
 
-    <script src="./src/js/dropDown.js"></script>
+    <script src="./src/js/dropdown.js"></script>
 </body>
 
 </html>

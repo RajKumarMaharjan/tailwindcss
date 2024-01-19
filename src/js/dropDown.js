@@ -1,32 +1,27 @@
-const dropdown = document.getElementById('dropdown');
-const dropdownProfile = document.getElementById('dropdown-profile');
+const profileMenu = document.querySelector('#dropdown-profile');
+const loginBtn = document.querySelector('#login');
+const handbugMenu = document.querySelector('#dropdown');
+const handbugBtn = document.querySelector('#mobile__menu');
 
-function toggleDropdown(element) {
-    element.style.display = (element.style.display == "none") ? "block" : "none";
-}
 
-function closeDropdown() {
-    dropdown.style.display = "none";
-    dropdownProfile.style.display = "none";
-}
+// loginBtn.addEventListener('click', () => {
+//     if(profileMenu.style.display === 'block'){
+//         profileMenu.style.display = 'none'
+//     }else{
+//         profileMenu.style.display = 'block'
+//     }
+   
+// })
 
-// Add an event listener to the window to close dropdowns on outside click
-window.addEventListener('click', function(event) {
-    const target = event.target;
-    
-    // Check if the clicked target is not within the dropdown or dropdownProfile
-    if (target !== dropdown && !dropdown.contains(target) &&
-        target !== dropdownProfile && !dropdownProfile.contains(target)) {
-        closeDropdown();
-    }
-});
+function toggleBtn(element){
+    element.style.display = (element.style.display === 'none') ? 'block' : 'none';
+};
 
-// Prevent the click event propagation from closing the dropdown when clicking inside it
-dropdown.addEventListener('click', function(event) {
+loginBtn.addEventListener('click', function(event){
     event.stopPropagation();
 });
 
-// Prevent the click event propagation from closing the dropdownProfile when clicking inside it
-dropdownProfile.addEventListener('click', function(event) {
+handbugBtn.addEventListener('click', function(event){
     event.stopPropagation();
 });
+
