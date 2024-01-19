@@ -1,7 +1,7 @@
-const profileMenu = document.querySelector('#dropdown-profile');
+const profileMenu = document.querySelector('#profile-menu');
 const loginBtn = document.querySelector('#login');
-const handbugMenu = document.querySelector('#dropdown');
-const handbugBtn = document.querySelector('#mobile__menu');
+const hamburgerMenu = document.querySelector('#dropdown-menu');
+const hamburgerBtn = document.querySelector('#mobile__menu');
 
 
 // loginBtn.addEventListener('click', () => {
@@ -19,15 +19,15 @@ function toggleBtn(element){
 
 loginBtn.addEventListener('click', function(event){
     event.stopPropagation();
-    handbugMenu.style.display = 'none';
+    hamburgerMenu.style.display = 'none';
 });
 
-handbugBtn.addEventListener('click', function(event){
+hamburgerBtn.addEventListener('click', function(event){
     event.stopPropagation();
     profileMenu.style.display = 'none';
 });
 
 document.addEventListener('click', () => {
    profileMenu.style.display = (!profileMenu.style.display === 'none') ? 'block':'none'
-   handbugMenu.style.display = (!handbugMenu.style.display === 'none') ? 'block':'none'
+   hamburgerMenu.style.display = (!hamburgerMenu.style.display === 'none') ? 'block':'none'
 })
